@@ -99,14 +99,60 @@ if __name__ == "__main__":
     # ✅
     caminhos.area_de_trabalho: str = "C:\\Users\\{}\\Documents\\testeDeImagens".format(getuser())
     rasters.imagens: List[str] = [
-        "T22MHC_20220724T133851_B02.jp2",
+        "T22MHC_20221724T133851_B02.jp2",
         "T22MHC_20220724T133851_B03.jp2",
         "T22MHC_20220724T133851_B04.jp2",
         ]
 
 
     setupComposicao(rasters.imagens) # ✅
-    rasters.gerarImagemComposicao(caminhos.area_de_trabalho) # ⌛ gerado só extrair
-    shape_interesse: str = "shape de teste" ⌛
-    camada_composicao: arcpy.mapping.Layer = string2map('composicao') ⌛
-    rasters.extrairPorMascara(shape_interesse) ⌛
+    rasters.gerarImagemComposicao(caminhos.area_de_trabalho) #⌛ gerado só extrair
+    shape_interesse: str = "shape de teste" #⌛
+    camada_composicao: arcpy.mapping.Layer = string2map('composicao') #⌛
+    rasters.extrairPorMascara(shape_interesse) #⌛
+
+    # Criar Poligono de Classificação
+    # Criar .edc
+    # Criar classificação Supervisionada
+    # Converter Raster em Polígono
+    # Adicionar na TDA: Classe, Area_ha
+
+    #
+# にゅうりょくちゅう
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#🧾🧙🏽🧱⚙️🛠️🧰⌛❌✅☑️⭐🏆⚠️
+
+
+# Significado dos Emojis 
+
+# Layout: 🧾
+# Função: 🧙🏽
+# Classes: 🧱⚙️
+# PythonToolBox: 🛠️🧰
+# Exception ✋🛑
+
+# Em testes: ⌛
+# Ainda não funcional: ❌
+# 100% Funcional e implementado: ✅
+# Funcional, não implementado: ☑️
+# Fundamental pra Rodar: ⭐
+# Insubstituível: 🏆
